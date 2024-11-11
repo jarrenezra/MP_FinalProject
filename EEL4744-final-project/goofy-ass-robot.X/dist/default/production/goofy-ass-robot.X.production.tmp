@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>AVR64DU32</DEVICE>
+ <WORKING_DIR>C:\Users\Ezra\OneDrive\Documents\Academic\Engineering\AVR64DU32 Microcontroller\EEL4744-final-project\goofy-ass-robot.X</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Users/Ezra/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/avrasm/inc</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>AVR64DU32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>dist/default/production/goofy-ass-robot.X.production.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>dist/default/production/goofy-ass-robot.X.production.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>dist/default/production/goofy-ass-robot.X.production.map</FILE>
+  <FILE>dist/default/production/goofy-ass-robot.X.production.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main_loop><FILE>main.asm</FILE><LINE>38</LINE></main_loop>
+  <twoSecondDelay><FILE>main.asm</FILE><LINE>51</LINE></twoSecondDelay>
+  <halfSecondDelay><FILE>main.asm</FILE><LINE>62</LINE></halfSecondDelay>
+  <tsd_overflow_flag><FILE>main.asm</FILE><LINE>55</LINE></tsd_overflow_flag>
+  <hsd_overflow_flag><FILE>main.asm</FILE><LINE>66</LINE></hsd_overflow_flag>
+ </LABELS>
+</ASSEMBLER_INFO>

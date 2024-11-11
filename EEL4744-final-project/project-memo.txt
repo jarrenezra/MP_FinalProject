@@ -1,0 +1,16 @@
+11/2/2024:
+
+so I just copied what I've done in lab 6 from my micro processors class, since in that lab, we were able to turn the led on and off, I'm thinking I may need that as well for a motor. I found online that I'm gonna need a separate tool to make it turn since the mc doesn't have enough power to turn it on
+
+2:42pm:
+
+finished simulating a code that will power anything as long as it's plug in. I set the PORT_OUTSET to high. In theory, it should output a power to run my motor. I'm going to look into L298N next, and see how I can set it up to drive my motor.
+
+3:00pm:
+
+I realized I just need to program the L298N to turn the motor on, I don't even need to just program the microcontroller, this definitely makes this a lot easier.
+
+11/4/2024:
+
+1:30pm:
+Motors finally started to spin. In L298N, there's the enable pins, turns out all I needed to do is supply it with the same voltage, so I just connected a female to female connection to them.
